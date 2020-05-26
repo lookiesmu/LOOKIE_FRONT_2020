@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/view1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="#E91E63"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/view1"
+        android:layout_above="@id/view1"
+        android:background="#FFEB3B"/>
+
+    <ImageView
+        android:id="@+id/view2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/view1"
+        android:layout_above="@id/view1"
+        android:background="#F44336"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/view1"
+        android:layout_below="@id/view1"
+        android:background="#00BCD4"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/view1"
+        android:layout_below="@id/view1"
+        android:background="#3F51B5"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/view1"
+        android:layout_above="@id/view1"
+        android:background="#0E0E0E"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/view1"
+        android:layout_below="@id/view1"
+        android:background="#4CAF50"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/view1"
+        android:layout_alignBottom="@id/view1"
+        android:background="#203F0C"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/view1"
+        android:layout_alignBottom="@id/view1"
+        android:background="#ECA5BB"/>
+
+</RelativeLayout>
