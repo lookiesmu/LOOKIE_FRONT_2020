@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity ="center"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="♥"
+            android:textSize="50sp"
+            android:textColor="#FF3939"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:text="my favorite things"
+            android:textStyle="italic"
+            android:textSize="50sp"
+            android:textColor="#D46AE6"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aimyon"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="AiMyon"
+            android:textSize="20sp"
+            android:textColor="#DF3B73"
+            android:textAlignment="center"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iri"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Iri"
+            android:textSize="20sp"
+            android:textColor="#F34336"
+            android:textAlignment="center"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/boss"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Boss qc35"
+            android:textSize="20sp"
+            android:textColor="#009688"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cat"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="My Lovely Cat DDONG-E"
+            android:textSize="20sp"
+            android:textColor="#C730E1"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+            //컨트롤 스페이스= 자동완성 쭉 보여줌
+            //꺽세 = 뷰 컴포넌트의 시작과 끝 보여줌
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+    
+
