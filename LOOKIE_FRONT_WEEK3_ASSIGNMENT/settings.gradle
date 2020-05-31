@@ -1,0 +1,2 @@
+rootProject.name='LOOKIE_FRONT_WEEK3_ASSIGNMENT'
+include ':app'
