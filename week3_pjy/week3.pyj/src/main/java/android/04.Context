@@ -1,0 +1,20 @@
+
+
+
+
+
+Context
+-문맥
+-엑티비티가 가지고 있는 주변 정보
+-val intent=Intent(this@Intent1, Intent2::class.java)
+-intent putExtra를 여러개 할 수 있다. 이름을 지어 준다는것?
+이름 호출->값 꺼내기
+
+            intent.putExtra("number",1)
+            intent.putExtra("number",2)
+       intent에 값 두개 보낸것
+
+               val number1 = intent.getIntExtra("number1")
+               val number2 = intent.getIntExtra("number2")
+
+               number1이 키값값
