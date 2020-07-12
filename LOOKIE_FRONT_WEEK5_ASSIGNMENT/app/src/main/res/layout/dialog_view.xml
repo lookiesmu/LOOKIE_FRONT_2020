@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan"
+            android:textSize="30dp"
+            android:textColor="@color/title"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/date_edit"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Date"
+            android:textColor="#878383"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/content_edit"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="Content"
+            android:textColor="#878383"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:textSize="20dp"
+                android:textColor="@color/title"
+                android:background="@color/plan_bg"
+                android:layout_marginRight="10dp"
+                />
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textSize="20dp"
+                android:textColor="@color/title"
+                android:background="@color/plan_bg"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>

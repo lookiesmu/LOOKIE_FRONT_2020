@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#8FBF83</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="plan_bg">#F9F8D9</color>
+    <color name="plan_button">#D1F16A</color>
+    <color name="planList_bg">#D4ECD2</color>
+    <color name="title">#5EB8C0</color>
+</resources>
