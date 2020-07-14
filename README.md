@@ -1,7 +1,7 @@
 # LOOKIE_FRONT_2020
 ## 2020 LOOKIE FRONT STUDY
 
-### Week 06 (7월 22일까지)
+### Week6. 안드로이드 Network 실습 (7월 22일까지)
 1. 패스트 캠퍼스 05 Essential 69강까지 수강
 2. 패스트 캠퍼스 강의 내에 있는 Network 61~67강 실습 화면 캡쳐 및 강의 내용 정리 Issue 에 올리기
  - 안드로이드 네트워크 관련 개념 
